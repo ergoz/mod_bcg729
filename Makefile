@@ -1,7 +1,12 @@
 ################################
 ### FreeSwitch headers files found in libfreeswitch-dev ###
-FS_INCLUDES=/usr/include/freeswitch
-FS_MODULES=/usr/lib/freeswitch/mod
+### OLD ###
+#FS_INCLUDES=/usr/include/freeswitch
+#FS_MODULES=/usr/lib/freeswitch/mod
+################################
+### NEW ###
+FS_INCLUDES=/usr/local/freeswitch/include/freeswitch
+FS_MODULES=/usr/local/freeswitch/mod
 ################################
 
 ### END OF CUSTOMIZATION ###
